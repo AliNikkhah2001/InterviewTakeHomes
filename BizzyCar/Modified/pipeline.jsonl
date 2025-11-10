@@ -1,0 +1,612 @@
+{"timestamp": "2025-11-10T18:39:31.954542", "event_type": "extraction_start", "input_idx": 0, "input_length": 29}
+{"timestamp": "2025-11-10T18:39:31.955458", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.955580", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.956346", "event_type": "extraction_start", "input_idx": 0, "input_length": 79}
+{"timestamp": "2025-11-10T18:39:31.956471", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.41}
+{"timestamp": "2025-11-10T18:39:31.956523", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["brake_service"], "confidence": 0.41}
+{"timestamp": "2025-11-10T18:39:31.958007", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T18:39:31.958166", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.958221", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.958255", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T18:39:31.958346", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.958377", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.958404", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T18:39:31.958481", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.958512", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.959209", "event_type": "extraction_start", "input_idx": 0, "input_length": 32}
+{"timestamp": "2025-11-10T18:39:31.959313", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.959350", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.832888", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T18:39:39.833518", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.833577", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.833610", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T18:39:39.833699", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.833729", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.833755", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T18:39:39.833833", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.833873", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.833896", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T18:39:40.437944", "event_type": "extraction_retry_failed", "input_idx": 3, "error_type": "ModelLowConfidence", "message": "low confidence: 0.56"}
+{"timestamp": "2025-11-10T18:39:40.438576", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T18:39:40.438726", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T18:39:40.439178", "event_type": "extraction_success", "input_idx": 4, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:40.439331", "event_type": "extraction_complete", "input_idx": 4, "method": "model", "intents": ["battery"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:40:41.442929", "event_type": "extraction_start", "input_idx": 0, "input_length": 28}
+{"timestamp": "2025-11-10T18:40:41.443844", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:40:41.444155", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:40:41.444207", "event_type": "extraction_start", "input_idx": 1, "input_length": 55}
+{"timestamp": "2025-11-10T18:40:41.444317", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:40:41.444353", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.386955", "event_type": "extraction_start", "input_idx": 0, "input_length": 29}
+{"timestamp": "2025-11-10T18:41:26.387907", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.388258", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.389222", "event_type": "extraction_start", "input_idx": 0, "input_length": 79}
+{"timestamp": "2025-11-10T18:41:26.389415", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.41}
+{"timestamp": "2025-11-10T18:41:26.389487", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["brake_service"], "confidence": 0.41}
+{"timestamp": "2025-11-10T18:41:26.391090", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T18:41:26.391223", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.391280", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.391315", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T18:41:26.391420", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.391459", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.391488", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T18:41:26.391567", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.391645", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.392475", "event_type": "extraction_start", "input_idx": 0, "input_length": 32}
+{"timestamp": "2025-11-10T18:41:26.392625", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.392679", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.076564", "event_type": "extraction_start", "input_idx": 0, "input_length": 29}
+{"timestamp": "2025-11-10T19:00:08.081092", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.081303", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.082365", "event_type": "extraction_start", "input_idx": 0, "input_length": 79}
+{"timestamp": "2025-11-10T19:00:08.082510", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.41}
+{"timestamp": "2025-11-10T19:00:08.082568", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["brake_service"], "confidence": 0.41}
+{"timestamp": "2025-11-10T19:00:08.084304", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T19:00:08.084484", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.084572", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.084618", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T19:00:08.084788", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.084851", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.084886", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T19:00:08.084985", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.085016", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.085821", "event_type": "extraction_start", "input_idx": 0, "input_length": 32}
+{"timestamp": "2025-11-10T19:00:08.085934", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.085980", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.684774", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T19:00:31.685737", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.686140", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.686182", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T19:00:31.686291", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.686325", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.686356", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T19:00:31.686446", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.686495", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.686522", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T19:00:32.289926", "event_type": "extraction_retry_failed", "input_idx": 3, "error_type": "ModelLowConfidence", "message": "low confidence: 0.56"}
+{"timestamp": "2025-11-10T19:00:32.290206", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T19:00:32.290320", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T19:00:32.290522", "event_type": "extraction_success", "input_idx": 4, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:32.290595", "event_type": "extraction_complete", "input_idx": 4, "method": "model", "intents": ["battery"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:40.392743", "event_type": "extraction_start", "input_idx": 0, "input_length": 28}
+{"timestamp": "2025-11-10T19:00:40.394384", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:40.394523", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:40.394577", "event_type": "extraction_start", "input_idx": 1, "input_length": 28}
+{"timestamp": "2025-11-10T19:00:40.394702", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:40.394747", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:40.394776", "event_type": "extraction_start", "input_idx": 2, "input_length": 22}
+{"timestamp": "2025-11-10T19:00:40.394885", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:40.394943", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["battery"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:47.400026", "event_type": "extraction_start", "input_idx": 0, "input_length": 28}
+{"timestamp": "2025-11-10T19:00:47.400922", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:47.401005", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:47.401037", "event_type": "extraction_start", "input_idx": 1, "input_length": 45}
+{"timestamp": "2025-11-10T19:00:47.401171", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:47.401205", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.032323", "event_type": "extraction_start", "input_idx": 0, "input_length": 28}
+{"timestamp": "2025-11-10T19:01:13.033266", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.033392", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.033443", "event_type": "extraction_start", "input_idx": 0, "input_length": 50}
+{"timestamp": "2025-11-10T19:01:13.033535", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.41}
+{"timestamp": "2025-11-10T19:01:13.033566", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["brake_service"], "confidence": 0.41}
+{"timestamp": "2025-11-10T19:01:13.033600", "event_type": "extraction_start", "input_idx": 0, "input_length": 38}
+{"timestamp": "2025-11-10T19:01:13.638441", "event_type": "extraction_retry_failed", "input_idx": 0, "error_type": "ModelLowConfidence", "message": "low confidence: 0.56"}
+{"timestamp": "2025-11-10T19:01:13.638975", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T19:01:13.639171", "event_type": "extraction_start", "input_idx": 0, "input_length": 28}
+{"timestamp": "2025-11-10T19:01:13.639618", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.639834", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.639943", "event_type": "extraction_start", "input_idx": 1, "input_length": 28}
+{"timestamp": "2025-11-10T19:01:13.640393", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.640524", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.640623", "event_type": "extraction_start", "input_idx": 2, "input_length": 16}
+{"timestamp": "2025-11-10T19:01:14.246638", "event_type": "extraction_retry_failed", "input_idx": 2, "error_type": "ModelLowConfidence", "message": "low confidence: 0.56"}
+{"timestamp": "2025-11-10T19:01:14.246980", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T19:01:14.247076", "event_type": "extraction_start", "input_idx": 3, "input_length": 27}
+{"timestamp": "2025-11-10T19:01:14.247342", "event_type": "extraction_success", "input_idx": 3, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:14.247452", "event_type": "extraction_complete", "input_idx": 3, "method": "model", "intents": ["tire_rotation"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.350815", "event_type": "extraction_start", "input_idx": 0, "input_length": 29}
+{"timestamp": "2025-11-10T19:01:20.351692", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.351787", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.352522", "event_type": "extraction_start", "input_idx": 0, "input_length": 79}
+{"timestamp": "2025-11-10T19:01:20.352629", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.41}
+{"timestamp": "2025-11-10T19:01:20.352669", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["brake_service"], "confidence": 0.41}
+{"timestamp": "2025-11-10T19:01:20.354041", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T19:01:20.354144", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.354189", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.354222", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T19:01:20.354309", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.354338", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.354362", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T19:01:20.354433", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.354459", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.355015", "event_type": "extraction_start", "input_idx": 0, "input_length": 32}
+{"timestamp": "2025-11-10T19:01:20.355102", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.355133", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:01:31.475506", "event_type": "extraction_start", "input_idx": 0, "input_length": 52}
+{"timestamp": "2025-11-10T20:01:31.475973", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:01:31.476353", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:01:31.476399", "event_type": "extraction_start", "input_idx": 1, "input_length": 49}
+{"timestamp": "2025-11-10T20:01:31.476502", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:01:31.476555", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:01:31.476586", "event_type": "extraction_start", "input_idx": 2, "input_length": 28}
+{"timestamp": "2025-11-10T20:01:32.080361", "event_type": "extraction_retry_failed", "input_idx": 2, "error_type": "ModelLowConfidence", "message": "low confidence: 0.56"}
+{"timestamp": "2025-11-10T20:01:32.081519", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T20:01:32.082077", "event_type": "extraction_start", "input_idx": 0, "input_length": 52}
+{"timestamp": "2025-11-10T20:01:37.491329", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.9}
+{"timestamp": "2025-11-10T20:01:37.491690", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure"], "confidence": 0.9}
+{"timestamp": "2025-11-10T20:01:37.491765", "event_type": "extraction_start", "input_idx": 1, "input_length": 62}
+{"timestamp": "2025-11-10T20:01:47.039078", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.7}
+{"timestamp": "2025-11-10T20:01:47.039316", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service"], "confidence": 0.7}
+{"timestamp": "2025-11-10T20:01:47.039393", "event_type": "extraction_start", "input_idx": 2, "input_length": 38}
+{"timestamp": "2025-11-10T20:01:50.973977", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.8}
+{"timestamp": "2025-11-10T20:01:50.974514", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["battery"], "confidence": 0.8}
+{"timestamp": "2025-11-10T20:07:29.164154", "event_type": "extraction_start", "input_idx": 0, "input_length": 29}
+{"timestamp": "2025-11-10T20:07:29.164777", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:07:29.165183", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:07:29.165830", "event_type": "extraction_start", "input_idx": 0, "input_length": 79}
+{"timestamp": "2025-11-10T20:07:29.165937", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.41}
+{"timestamp": "2025-11-10T20:07:29.165975", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["brake_service"], "confidence": 0.41}
+{"timestamp": "2025-11-10T20:07:29.167222", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T20:07:29.167323", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:07:29.167366", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:07:29.167395", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T20:07:29.167478", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:07:29.167507", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:07:29.167547", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T20:07:29.167622", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:07:29.167647", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:07:29.168174", "event_type": "extraction_start", "input_idx": 0, "input_length": 32}
+{"timestamp": "2025-11-10T20:07:29.168259", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:07:29.168289", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:08:01.101954", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T20:08:01.102610", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:08:01.102702", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:08:01.102735", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T20:08:01.102844", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:08:01.102871", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:08:01.102897", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T20:08:01.102988", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:08:01.103025", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:08:01.103045", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T20:08:01.707585", "event_type": "extraction_retry_failed", "input_idx": 3, "error_type": "ModelLowConfidence", "message": "low confidence: 0.56"}
+{"timestamp": "2025-11-10T20:08:01.708474", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T20:08:01.708764", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T20:08:01.709260", "event_type": "extraction_success", "input_idx": 4, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:08:01.709383", "event_type": "extraction_complete", "input_idx": 4, "method": "model", "intents": ["battery"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:42:56.987525", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T20:42:56.988423", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T20:42:56.988653", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T20:42:56.988699", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T20:42:56.988760", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T20:42:56.988788", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T20:42:56.992786", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T20:42:56.992859", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T20:42:56.992906", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T20:42:56.992929", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T20:42:56.992976", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T20:42:56.993007", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T20:42:56.993025", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T20:42:56.993141", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T20:42:56.993163", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T20:43:29.923026", "event_type": "extraction_start", "input_idx": 0, "input_length": 52}
+{"timestamp": "2025-11-10T20:43:29.923892", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:43:29.924314", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:43:29.924349", "event_type": "extraction_start", "input_idx": 1, "input_length": 49}
+{"timestamp": "2025-11-10T20:43:29.924467", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:43:29.924500", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:43:29.924525", "event_type": "extraction_start", "input_idx": 2, "input_length": 28}
+{"timestamp": "2025-11-10T20:43:30.529643", "event_type": "extraction_retry_failed", "input_idx": 2, "error_type": "ModelLowConfidence", "message": "low confidence: 0.56"}
+{"timestamp": "2025-11-10T20:43:30.530743", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T20:43:30.531114", "event_type": "extraction_start", "input_idx": 0, "input_length": 52}
+{"timestamp": "2025-11-10T20:43:30.531788", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:43:30.531926", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:43:30.532011", "event_type": "extraction_start", "input_idx": 1, "input_length": 62}
+{"timestamp": "2025-11-10T20:43:30.532669", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:43:30.532947", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:43:30.533034", "event_type": "extraction_start", "input_idx": 2, "input_length": 38}
+{"timestamp": "2025-11-10T20:43:30.533417", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:43:30.533494", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["battery", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:47:17.866364", "event_type": "extraction_start", "input_idx": 0, "input_length": 52}
+{"timestamp": "2025-11-10T20:47:17.867537", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:47:17.867838", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:47:17.867890", "event_type": "extraction_start", "input_idx": 1, "input_length": 49}
+{"timestamp": "2025-11-10T20:47:17.868028", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:47:17.868065", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:47:17.868093", "event_type": "extraction_start", "input_idx": 2, "input_length": 28}
+{"timestamp": "2025-11-10T20:47:18.472873", "event_type": "extraction_retry_failed", "input_idx": 2, "error_type": "ModelLowConfidence", "message": "low confidence: 0.56"}
+{"timestamp": "2025-11-10T20:47:18.473908", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T20:47:18.474448", "event_type": "extraction_start", "input_idx": 0, "input_length": 52}
+{"timestamp": "2025-11-10T20:47:18.478067", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:47:18.478327", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:47:18.478438", "event_type": "extraction_start", "input_idx": 1, "input_length": 62}
+{"timestamp": "2025-11-10T20:47:18.478864", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:47:18.478940", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:47:18.478996", "event_type": "extraction_start", "input_idx": 2, "input_length": 38}
+{"timestamp": "2025-11-10T20:47:18.479493", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T20:47:18.479796", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["battery", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T20:57:50.129288", "event_type": "extraction_start", "input_idx": 0, "input_length": 29}
+{"timestamp": "2025-11-10T20:57:54.544758", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.9}
+{"timestamp": "2025-11-10T20:57:54.545594", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.9}
+{"timestamp": "2025-11-10T20:57:54.601514", "event_type": "extraction_start", "input_idx": 0, "input_length": 79}
+{"timestamp": "2025-11-10T20:57:58.175918", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.55}
+{"timestamp": "2025-11-10T20:57:58.176343", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["brake_service", "unknown"], "confidence": 0.55}
+{"timestamp": "2025-11-10T20:57:58.181758", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T20:58:05.341671", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.8}
+{"timestamp": "2025-11-10T20:58:05.342480", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["engine_diagnostic", "oil_change", "tire_pressure"], "confidence": 0.8}
+{"timestamp": "2025-11-10T20:58:05.342598", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T20:58:08.936712", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.9}
+{"timestamp": "2025-11-10T20:58:08.936968", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service"], "confidence": 0.9}
+{"timestamp": "2025-11-10T20:58:08.937049", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T20:58:13.107844", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.8}
+{"timestamp": "2025-11-10T20:58:13.108218", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.8}
+{"timestamp": "2025-11-10T20:58:13.110424", "event_type": "extraction_start", "input_idx": 0, "input_length": 32}
+{"timestamp": "2025-11-10T20:58:19.813218", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.9}
+{"timestamp": "2025-11-10T20:58:19.813411", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.9}
+{"timestamp": "2025-11-10T21:00:01.564826", "event_type": "extraction_start", "input_idx": 0, "input_length": 29}
+{"timestamp": "2025-11-10T21:00:06.713215", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.9}
+{"timestamp": "2025-11-10T21:00:06.713731", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.9}
+{"timestamp": "2025-11-10T21:00:06.774918", "event_type": "extraction_start", "input_idx": 0, "input_length": 79}
+{"timestamp": "2025-11-10T21:00:11.330925", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.55}
+{"timestamp": "2025-11-10T21:00:11.331339", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["brake_service", "unknown"], "confidence": 0.55}
+{"timestamp": "2025-11-10T21:00:11.336875", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:00:19.942643", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.9}
+{"timestamp": "2025-11-10T21:00:19.943155", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["engine_diagnostic", "oil_change", "tire_pressure"], "confidence": 0.9}
+{"timestamp": "2025-11-10T21:00:19.943227", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:00:27.804601", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.9}
+{"timestamp": "2025-11-10T21:00:27.806137", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service"], "confidence": 0.9}
+{"timestamp": "2025-11-10T21:00:27.806237", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:00:40.365280", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.8}
+{"timestamp": "2025-11-10T21:00:40.366746", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.8}
+{"timestamp": "2025-11-10T21:00:40.369986", "event_type": "extraction_start", "input_idx": 0, "input_length": 32}
+{"timestamp": "2025-11-10T21:00:49.346009", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.9}
+{"timestamp": "2025-11-10T21:00:49.346136", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.9}
+{"timestamp": "2025-11-10T21:01:56.971769", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:01:56.972668", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:01:56.973011", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:01:56.973059", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:01:56.973131", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:01:56.973158", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:01:56.973179", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:01:56.973225", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:01:56.973266", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:01:56.973287", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:01:56.973334", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:01:56.973359", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:01:56.973376", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:01:56.973414", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:01:56.973433", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:06:24.871959", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:06:24.872767", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:06:24.872989", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:06:24.873039", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:06:24.873106", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:06:24.873136", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:06:24.873159", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:06:24.873211", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:06:24.873254", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:06:24.873277", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:06:24.873332", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:06:24.873361", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:06:24.873379", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:06:24.873509", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:06:24.873543", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:06:56.547811", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:06:56.548409", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:06:56.548680", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:06:56.548749", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:06:56.548837", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:06:56.548873", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:06:56.548896", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:06:56.548956", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:06:56.548999", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:06:56.549022", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:06:56.549077", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:06:56.549108", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:06:56.549126", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:06:56.549333", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:06:56.549435", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:08:36.742606", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:08:36.743475", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:08:36.743827", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:08:36.743893", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:08:36.743977", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:08:36.744012", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:08:36.744035", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:08:36.744090", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:08:36.744135", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:08:36.744167", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:08:36.744225", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:08:36.744253", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:08:36.744271", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:08:36.744399", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:08:36.744422", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:09:48.968276", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:09:48.969043", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:09:48.969370", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:09:48.969415", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:09:48.969475", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:09:48.969504", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:09:48.969527", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:09:48.969572", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:09:48.969611", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:09:48.969632", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:09:48.969682", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:09:48.969707", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:09:48.969723", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:09:48.969832", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:09:48.969853", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:15.691478", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:10:15.692055", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:15.692265", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:15.692309", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:10:15.692368", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:15.692402", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:15.692422", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:10:15.692469", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:15.692508", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:15.692528", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:10:15.692574", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:15.692601", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:15.692618", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:10:15.692729", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:15.692751", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:26.367631", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:10:26.368143", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:26.368194", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:26.368228", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:10:26.368287", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:26.368315", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:26.368339", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:10:26.368387", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:26.368429", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:26.368449", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:10:26.368496", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:26.368524", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:26.368542", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:10:26.368653", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:26.368676", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:43.455053", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:10:43.455675", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:43.456033", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:43.456089", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:10:43.456159", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:43.456191", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:43.456214", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:10:43.456269", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:43.456312", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:43.456336", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:10:43.456388", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:43.456418", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:10:43.456436", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:10:43.456571", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:10:43.456598", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:11:06.159911", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:11:06.160539", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:11:06.160791", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:11:06.160855", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:11:06.160944", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:11:06.160979", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:11:06.161003", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:11:06.161061", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:11:06.161107", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:11:06.161130", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:11:06.161195", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:11:06.161225", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:11:06.161242", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:11:06.161373", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:11:06.161397", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:14:15.985509", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:14:15.986374", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:14:15.986736", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:14:15.986803", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:14:15.986894", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:14:15.986935", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:14:15.986959", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:14:15.987021", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:14:15.987066", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:14:15.987094", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:14:15.987150", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:14:15.987183", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:14:15.987202", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:14:15.987339", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:14:15.987363", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:14:44.922533", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:14:44.923093", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:14:44.923443", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:14:44.923491", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:14:44.923553", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:14:44.923588", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:14:44.923610", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:14:44.923658", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:14:44.923703", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:14:44.923723", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:14:44.923769", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:14:44.923795", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:14:44.923811", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:14:44.923920", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:14:44.923941", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:06.922429", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:15:06.923000", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:15:06.923243", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:06.923310", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:15:06.923401", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:15:06.923442", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:06.923467", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:15:06.923525", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:15:06.923571", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:06.923594", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:15:06.923648", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:15:06.923681", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:06.923699", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:15:06.923893", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:15:06.923934", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:15.884059", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:15:15.884500", "event_type": "extraction_error", "input_idx": 0, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:15:15.884549", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:15.884583", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:15:15.884642", "event_type": "extraction_error", "input_idx": 1, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:15:15.884669", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:15.884691", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:15:15.884739", "event_type": "extraction_error", "input_idx": 2, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:15:15.884780", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:15.884801", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:15:15.884847", "event_type": "extraction_error", "input_idx": 3, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:15:15.884878", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:15.884895", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:15:15.885003", "event_type": "extraction_error", "input_idx": 4, "error_type": "ImportError", "error": "OpenAI package required. Install with: pip install openai"}
+{"timestamp": "2025-11-10T21:15:15.885025", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:35.860511", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:15:35.861127", "event_type": "extraction_error", "input_idx": 0, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:15:35.861450", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:35.861499", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:15:35.861560", "event_type": "extraction_error", "input_idx": 1, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:15:35.861588", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:35.861609", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:15:35.861656", "event_type": "extraction_error", "input_idx": 2, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:15:35.861697", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:35.861720", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:15:35.861764", "event_type": "extraction_error", "input_idx": 3, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:15:35.861789", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:35.861807", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:15:35.861916", "event_type": "extraction_error", "input_idx": 4, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:15:35.861937", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:44.351193", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:15:44.351496", "event_type": "extraction_error", "input_idx": 0, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:15:44.351547", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:44.351581", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:15:44.351647", "event_type": "extraction_error", "input_idx": 1, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:15:44.351676", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:44.351698", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:15:44.351752", "event_type": "extraction_error", "input_idx": 2, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:15:44.351794", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:44.351818", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:15:44.351869", "event_type": "extraction_error", "input_idx": 3, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:15:44.351899", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:15:44.351918", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:15:44.352041", "event_type": "extraction_error", "input_idx": 4, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:15:44.352064", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:16:44.576797", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:16:44.577475", "event_type": "extraction_error", "input_idx": 0, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:16:44.577693", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:16:44.577742", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:16:44.577799", "event_type": "extraction_error", "input_idx": 1, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:16:44.577826", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:16:44.577848", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:16:44.577894", "event_type": "extraction_error", "input_idx": 2, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:16:44.577936", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:16:44.577957", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:16:44.578005", "event_type": "extraction_error", "input_idx": 3, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:16:44.578031", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:16:44.578048", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:16:44.578163", "event_type": "extraction_error", "input_idx": 4, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:16:44.578184", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:17:48.749282", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:17:48.750123", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T21:17:48.750491", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T21:17:48.750523", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:17:48.750630", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T21:17:48.750659", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T21:17:48.750685", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:17:48.750776", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T21:17:48.750815", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T21:17:48.750837", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:17:49.354945", "event_type": "extraction_retry_failed", "input_idx": 3, "error_type": "ModelLowConfidence", "message": "low confidence: 0.56"}
+{"timestamp": "2025-11-10T21:17:49.355832", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:17:49.355927", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:17:49.356339", "event_type": "extraction_success", "input_idx": 4, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T21:17:49.356414", "event_type": "extraction_complete", "input_idx": 4, "method": "model", "intents": ["battery"], "confidence": 0.56}
+{"timestamp": "2025-11-10T21:19:18.865359", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:19:18.866016", "event_type": "extraction_error", "input_idx": 0, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:19:18.866228", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:19:18.866277", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:19:18.866343", "event_type": "extraction_error", "input_idx": 1, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:19:18.866373", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:19:18.866396", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:19:18.866449", "event_type": "extraction_error", "input_idx": 2, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:19:18.866492", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:19:18.866514", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:19:18.866569", "event_type": "extraction_error", "input_idx": 3, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:19:18.866599", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:19:18.866618", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:19:18.866741", "event_type": "extraction_error", "input_idx": 4, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:19:18.866764", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:20:58.216540", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:20:58.217272", "event_type": "extraction_error", "input_idx": 0, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:20:58.217508", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:20:58.217594", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:20:58.217696", "event_type": "extraction_error", "input_idx": 1, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:20:58.217739", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:20:58.217766", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:20:58.217824", "event_type": "extraction_error", "input_idx": 2, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:20:58.217869", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:20:58.217895", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:20:58.217950", "event_type": "extraction_error", "input_idx": 3, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:20:58.217979", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:20:58.217997", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:20:58.218132", "event_type": "extraction_error", "input_idx": 4, "error_type": "NameError", "error": "name 'OpenAI' is not defined"}
+{"timestamp": "2025-11-10T21:20:58.218156", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:21:36.173683", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:21:36.174516", "event_type": "extraction_error", "input_idx": 0, "error_type": "ModuleNotFoundError", "error": "No module named 'openai'"}
+{"timestamp": "2025-11-10T21:21:36.174751", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:21:36.174798", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:21:36.174891", "event_type": "extraction_error", "input_idx": 1, "error_type": "ModuleNotFoundError", "error": "No module named 'openai'"}
+{"timestamp": "2025-11-10T21:21:36.174921", "event_type": "extraction_complete", "input_idx": 1, "method": "fallback", "intents": ["brake_service", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:21:36.174944", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:21:36.175023", "event_type": "extraction_error", "input_idx": 2, "error_type": "ModuleNotFoundError", "error": "No module named 'openai'"}
+{"timestamp": "2025-11-10T21:21:36.175065", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["tire_rotation", "ac_service"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:21:36.175087", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:21:36.175165", "event_type": "extraction_error", "input_idx": 3, "error_type": "ModuleNotFoundError", "error": "No module named 'openai'"}
+{"timestamp": "2025-11-10T21:21:36.175195", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:21:36.175213", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:21:36.175358", "event_type": "extraction_error", "input_idx": 4, "error_type": "ModuleNotFoundError", "error": "No module named 'openai'"}
+{"timestamp": "2025-11-10T21:21:36.175380", "event_type": "extraction_complete", "input_idx": 4, "method": "fallback", "intents": ["battery"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:21:59.352246", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:22:04.843428", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.8}
+{"timestamp": "2025-11-10T21:22:04.845113", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["engine_diagnostic", "oil_change", "tire_pressure"], "confidence": 0.8}
+{"timestamp": "2025-11-10T21:22:04.845229", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:22:08.324386", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.9}
+{"timestamp": "2025-11-10T21:22:08.325023", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service"], "confidence": 0.9}
+{"timestamp": "2025-11-10T21:22:08.325245", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:22:12.751439", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.8}
+{"timestamp": "2025-11-10T21:22:12.751752", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.8}
+{"timestamp": "2025-11-10T21:22:12.751810", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:22:29.391841", "event_type": "extraction_retry_failed", "input_idx": 3, "error_type": "ModelLowConfidence", "message": "low confidence: 0.5"}
+{"timestamp": "2025-11-10T21:22:29.392272", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T21:22:29.392340", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:22:35.506083", "event_type": "extraction_success", "input_idx": 4, "method": "model", "confidence": 0.8}
+{"timestamp": "2025-11-10T21:22:35.506792", "event_type": "extraction_complete", "input_idx": 4, "method": "model", "intents": ["battery"], "confidence": 0.8}
+{"timestamp": "2025-11-10T21:22:49.389281", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T21:22:56.046561", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.8}
+{"timestamp": "2025-11-10T21:22:56.047512", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["engine_diagnostic", "oil_change", "tire_pressure"], "confidence": 0.8}
+{"timestamp": "2025-11-10T21:22:56.047561", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T21:22:59.632060", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.9}
+{"timestamp": "2025-11-10T21:22:59.632514", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service"], "confidence": 0.9}
+{"timestamp": "2025-11-10T21:22:59.632649", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T21:23:07.671848", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.8}
+{"timestamp": "2025-11-10T21:23:07.673493", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.8}
+{"timestamp": "2025-11-10T21:23:07.673693", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T21:23:11.398729", "event_type": "extraction_success", "input_idx": 3, "method": "model", "confidence": 0.3}
+{"timestamp": "2025-11-10T21:23:11.399168", "event_type": "extraction_complete", "input_idx": 3, "method": "model", "intents": ["unknown"], "confidence": 0.3}
+{"timestamp": "2025-11-10T21:23:11.399233", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T21:23:17.052087", "event_type": "extraction_success", "input_idx": 4, "method": "model", "confidence": 0.9}
+{"timestamp": "2025-11-10T21:23:17.052790", "event_type": "extraction_complete", "input_idx": 4, "method": "model", "intents": ["battery"], "confidence": 0.9}

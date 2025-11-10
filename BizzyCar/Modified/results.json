@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "vin_detected": false,
+      "vehicle_make": null,
+      "vehicle_model": "Camry",
+      "year": 2018,
+      "service_intent": [
+        "engine_diagnostic",
+        "oil_change",
+        "tire_pressure"
+      ],
+      "urgency": "medium",
+      "raw_extraction_confidence": 0.8,
+      "notes": "2018 Camry in for check-engine light and oil change. Tire pressure low.",
+      "_extraction_method": "model"
+    },
+    {
+      "vin_detected": true,
+      "vehicle_make": "Honda",
+      "vehicle_model": "Accord",
+      "year": 2015,
+      "service_intent": [
+        "brake_service"
+      ],
+      "urgency": "high",
+      "raw_extraction_confidence": 0.9,
+      "notes": "Customer reports hearing grinding noise when braking",
+      "_extraction_method": "model"
+    },
+    {
+      "vin_detected": false,
+      "vehicle_make": null,
+      "vehicle_model": "Rogue",
+      "year": 2020,
+      "service_intent": [
+        "tire_rotation",
+        "ac_service"
+      ],
+      "urgency": "medium",
+      "raw_extraction_confidence": 0.8,
+      "notes": "Need appointment for tire rotation, also AC not cooling well on 2020 Rogue.",
+      "_extraction_method": "model"
+    },
+    {
+      "vin_detected": false,
+      "vehicle_make": null,
+      "vehicle_model": null,
+      "year": null,
+      "service_intent": [
+        "unknown"
+      ],
+      "urgency": "low",
+      "raw_extraction_confidence": 0.3,
+      "notes": "Question about hours this weekend. Do you take walk-ins?",
+      "_extraction_method": "model"
+    },
+    {
+      "vin_detected": false,
+      "vehicle_make": "F-150",
+      "vehicle_model": null,
+      "year": 2017,
+      "service_intent": [
+        "battery"
+      ],
+      "urgency": "high",
+      "raw_extraction_confidence": 0.9,
+      "notes": "Battery died again on 2017 F-150 after short trips.",
+      "_extraction_method": "model"
+    }
+  ]
+}
