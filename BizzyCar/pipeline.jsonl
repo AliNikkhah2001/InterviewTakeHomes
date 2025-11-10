@@ -1,0 +1,144 @@
+{"timestamp": "2025-11-10T18:39:31.954542", "event_type": "extraction_start", "input_idx": 0, "input_length": 29}
+{"timestamp": "2025-11-10T18:39:31.955458", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.955580", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.956346", "event_type": "extraction_start", "input_idx": 0, "input_length": 79}
+{"timestamp": "2025-11-10T18:39:31.956471", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.41}
+{"timestamp": "2025-11-10T18:39:31.956523", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["brake_service"], "confidence": 0.41}
+{"timestamp": "2025-11-10T18:39:31.958007", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T18:39:31.958166", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.958221", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.958255", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T18:39:31.958346", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.958377", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.958404", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T18:39:31.958481", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.958512", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.959209", "event_type": "extraction_start", "input_idx": 0, "input_length": 32}
+{"timestamp": "2025-11-10T18:39:31.959313", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:31.959350", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.832888", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T18:39:39.833518", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.833577", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.833610", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T18:39:39.833699", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.833729", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.833755", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T18:39:39.833833", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.833873", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:39.833896", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T18:39:40.437944", "event_type": "extraction_retry_failed", "input_idx": 3, "error_type": "ModelLowConfidence", "message": "low confidence: 0.56"}
+{"timestamp": "2025-11-10T18:39:40.438576", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T18:39:40.438726", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T18:39:40.439178", "event_type": "extraction_success", "input_idx": 4, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:39:40.439331", "event_type": "extraction_complete", "input_idx": 4, "method": "model", "intents": ["battery"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:40:41.442929", "event_type": "extraction_start", "input_idx": 0, "input_length": 28}
+{"timestamp": "2025-11-10T18:40:41.443844", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:40:41.444155", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:40:41.444207", "event_type": "extraction_start", "input_idx": 1, "input_length": 55}
+{"timestamp": "2025-11-10T18:40:41.444317", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:40:41.444353", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.386955", "event_type": "extraction_start", "input_idx": 0, "input_length": 29}
+{"timestamp": "2025-11-10T18:41:26.387907", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.388258", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.389222", "event_type": "extraction_start", "input_idx": 0, "input_length": 79}
+{"timestamp": "2025-11-10T18:41:26.389415", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.41}
+{"timestamp": "2025-11-10T18:41:26.389487", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["brake_service"], "confidence": 0.41}
+{"timestamp": "2025-11-10T18:41:26.391090", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T18:41:26.391223", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.391280", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.391315", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T18:41:26.391420", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.391459", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.391488", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T18:41:26.391567", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.391645", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.392475", "event_type": "extraction_start", "input_idx": 0, "input_length": 32}
+{"timestamp": "2025-11-10T18:41:26.392625", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T18:41:26.392679", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.076564", "event_type": "extraction_start", "input_idx": 0, "input_length": 29}
+{"timestamp": "2025-11-10T19:00:08.081092", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.081303", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.082365", "event_type": "extraction_start", "input_idx": 0, "input_length": 79}
+{"timestamp": "2025-11-10T19:00:08.082510", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.41}
+{"timestamp": "2025-11-10T19:00:08.082568", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["brake_service"], "confidence": 0.41}
+{"timestamp": "2025-11-10T19:00:08.084304", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T19:00:08.084484", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.084572", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.084618", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T19:00:08.084788", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.084851", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.084886", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T19:00:08.084985", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.085016", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.085821", "event_type": "extraction_start", "input_idx": 0, "input_length": 32}
+{"timestamp": "2025-11-10T19:00:08.085934", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:08.085980", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.684774", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T19:00:31.685737", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.686140", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.686182", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T19:00:31.686291", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.686325", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.686356", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T19:00:31.686446", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.686495", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:31.686522", "event_type": "extraction_start", "input_idx": 3, "input_length": 56}
+{"timestamp": "2025-11-10T19:00:32.289926", "event_type": "extraction_retry_failed", "input_idx": 3, "error_type": "ModelLowConfidence", "message": "low confidence: 0.56"}
+{"timestamp": "2025-11-10T19:00:32.290206", "event_type": "extraction_complete", "input_idx": 3, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T19:00:32.290320", "event_type": "extraction_start", "input_idx": 4, "input_length": 51}
+{"timestamp": "2025-11-10T19:00:32.290522", "event_type": "extraction_success", "input_idx": 4, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:32.290595", "event_type": "extraction_complete", "input_idx": 4, "method": "model", "intents": ["battery"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:40.392743", "event_type": "extraction_start", "input_idx": 0, "input_length": 28}
+{"timestamp": "2025-11-10T19:00:40.394384", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:40.394523", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:40.394577", "event_type": "extraction_start", "input_idx": 1, "input_length": 28}
+{"timestamp": "2025-11-10T19:00:40.394702", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:40.394747", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:40.394776", "event_type": "extraction_start", "input_idx": 2, "input_length": 22}
+{"timestamp": "2025-11-10T19:00:40.394885", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:40.394943", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["battery"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:47.400026", "event_type": "extraction_start", "input_idx": 0, "input_length": 28}
+{"timestamp": "2025-11-10T19:00:47.400922", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:47.401005", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:47.401037", "event_type": "extraction_start", "input_idx": 1, "input_length": 45}
+{"timestamp": "2025-11-10T19:00:47.401171", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:00:47.401205", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.032323", "event_type": "extraction_start", "input_idx": 0, "input_length": 28}
+{"timestamp": "2025-11-10T19:01:13.033266", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.033392", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.033443", "event_type": "extraction_start", "input_idx": 0, "input_length": 50}
+{"timestamp": "2025-11-10T19:01:13.033535", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.41}
+{"timestamp": "2025-11-10T19:01:13.033566", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["brake_service"], "confidence": 0.41}
+{"timestamp": "2025-11-10T19:01:13.033600", "event_type": "extraction_start", "input_idx": 0, "input_length": 38}
+{"timestamp": "2025-11-10T19:01:13.638441", "event_type": "extraction_retry_failed", "input_idx": 0, "error_type": "ModelLowConfidence", "message": "low confidence: 0.56"}
+{"timestamp": "2025-11-10T19:01:13.638975", "event_type": "extraction_complete", "input_idx": 0, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T19:01:13.639171", "event_type": "extraction_start", "input_idx": 0, "input_length": 28}
+{"timestamp": "2025-11-10T19:01:13.639618", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.639834", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.639943", "event_type": "extraction_start", "input_idx": 1, "input_length": 28}
+{"timestamp": "2025-11-10T19:01:13.640393", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.640524", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:13.640623", "event_type": "extraction_start", "input_idx": 2, "input_length": 16}
+{"timestamp": "2025-11-10T19:01:14.246638", "event_type": "extraction_retry_failed", "input_idx": 2, "error_type": "ModelLowConfidence", "message": "low confidence: 0.56"}
+{"timestamp": "2025-11-10T19:01:14.246980", "event_type": "extraction_complete", "input_idx": 2, "method": "fallback", "intents": ["unknown"], "confidence": 0.45}
+{"timestamp": "2025-11-10T19:01:14.247076", "event_type": "extraction_start", "input_idx": 3, "input_length": 27}
+{"timestamp": "2025-11-10T19:01:14.247342", "event_type": "extraction_success", "input_idx": 3, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:14.247452", "event_type": "extraction_complete", "input_idx": 3, "method": "model", "intents": ["tire_rotation"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.350815", "event_type": "extraction_start", "input_idx": 0, "input_length": 29}
+{"timestamp": "2025-11-10T19:01:20.351692", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.351787", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.352522", "event_type": "extraction_start", "input_idx": 0, "input_length": 79}
+{"timestamp": "2025-11-10T19:01:20.352629", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.41}
+{"timestamp": "2025-11-10T19:01:20.352669", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["brake_service"], "confidence": 0.41}
+{"timestamp": "2025-11-10T19:01:20.354041", "event_type": "extraction_start", "input_idx": 0, "input_length": 71}
+{"timestamp": "2025-11-10T19:01:20.354144", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.354189", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "tire_pressure", "engine_diagnostic"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.354222", "event_type": "extraction_start", "input_idx": 1, "input_length": 85}
+{"timestamp": "2025-11-10T19:01:20.354309", "event_type": "extraction_success", "input_idx": 1, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.354338", "event_type": "extraction_complete", "input_idx": 1, "method": "model", "intents": ["brake_service", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.354362", "event_type": "extraction_start", "input_idx": 2, "input_length": 75}
+{"timestamp": "2025-11-10T19:01:20.354433", "event_type": "extraction_success", "input_idx": 2, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.354459", "event_type": "extraction_complete", "input_idx": 2, "method": "model", "intents": ["tire_rotation", "ac_service"], "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.355015", "event_type": "extraction_start", "input_idx": 0, "input_length": 32}
+{"timestamp": "2025-11-10T19:01:20.355102", "event_type": "extraction_success", "input_idx": 0, "method": "model", "confidence": 0.56}
+{"timestamp": "2025-11-10T19:01:20.355133", "event_type": "extraction_complete", "input_idx": 0, "method": "model", "intents": ["oil_change", "ac_service"], "confidence": 0.56}
