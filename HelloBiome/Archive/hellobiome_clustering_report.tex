@@ -1,0 +1,198 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{inconsolata}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+
+\lstset{basicstyle=\ttfamily\small,breaklines=true}
+\setlength{\parskip}{0.6em}
+\setlength{\parindent}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{hellobiome --- Clustering \& Engineering Report}
+\title{Clustering Analysis \& Engineering Case Study for hellobiome}
+\author{Analytics \& ML Engineering}
+\date{Silver Rauk}
+
+\begin{document}
+	
+	\maketitle
+	\tableofcontents
+	\newpage
+	
+	\section*{Executive Summary}
+	\textbf{Dataset.} We analyzed the decrypted CSV extracted from \texttt{df.zip}.
+	After robust preprocessing, the data exhibit low intrinsic dimensionality (first two PCs explain \textbf{97.61\%}).
+	
+	\textbf{Best method \& k.} A method/k sweep across K-Means, GMM, and Agglomerative (Ward) for $k\in[2,10]$ selected
+	\textbf{K-Means} with \textbf{$k=4$} as optimal by a composite of Silhouette , Calinski--Harabasz ,
+	and Davies--Bouldin . Scores at the chosen solution: Silhouette=\textbf{0.8626}, CH=\textbf{2206.97}, DB=\textbf{0.4740}.
+	The clusters are compact and well-separated in PCA space; centroid-based K-Means is a natural fit.
+	
+	\textbf{Composition.} Cluster sizes: \{'0': 913, '1': 23, '2': 17, '3': 33\}. Dominant separating features: \texttt{feature\_10, feature\_24, feature\_4, feature\_25, feature\_15, feature\_6, feature\_27, feature\_2, feature\_33, feature\_5}.
+	
+	\section{(1) Method Selection, and Choice of $k$}
+	\subsection*{Preprocessing}
+	Median imputation, zero-variance filtering, and Robust scaling were applied to numeric features. These choices are stable to outliers and maintain signal.
+	
+	\subsection*{Model sweep and metrics}
+	We trained K-Means, Gaussian Mixture Models (full covariance), and Agglomerative (Ward) across $k=2..10$ and computed Silhouette, CH, and DB indices.
+	Figure~\ref{fig:sil}--\ref{fig:db} show the curves; K-Means at $k=4$ provides the strongest overall internal validity.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.9\linewidth]{fig_silhouette_vs_k.png}
+		\caption{Silhouette vs $k$ (higher is better).}
+		\label{fig:sil}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.9\linewidth]{fig_ch_vs_k.png}
+		\caption{Calinski--Harabasz vs $k$ (higher is better).}
+		\label{fig:ch}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.9\linewidth]{fig_db_vs_k.png}
+		\caption{Davies--Bouldin vs $k$ (lower is better).}
+		\label{fig:db}
+	\end{figure}
+	
+	\subsection*{Why this method fits}
+	The PCA projection (Fig.~\ref{fig:pca}) shows clean separation with 97.61\% variance captured in 2D, indicating compact, nearly convex groups.
+	This geometry favors centroid-based partitions; GMM and Agglomerative agree but underperform on the composite score.
+	
+	\section{(2) Visualization \& Feature Importance}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.85\linewidth]{fig_pca_clusters.png}
+		\caption{PCA (2D) colored by cluster --- K-Means, $k=4$; EV $\approx$ 97.61\%.}
+		\label{fig:pca}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.6\linewidth]{fig_cluster_sizes.png}
+		\caption{Cluster sizes.}
+		\label{fig:sizes}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.9\linewidth]{fig_feature_importance.png}
+		\caption{Top features by ANOVA $F$ (higher separates better).}
+		\label{fig:features}
+	\end{figure}
+	
+	\subsection*{Top features and profiles}
+	\textbf{Top-10 separating features (ANOVA $F$):}
+	\begin{center}
+		\begin{tabular}{ll}
+			\toprule
+			Feature & F-value \\
+			\midrule
+			feature\_10 & 4029.363 \\
+			feature\_24 & 959.980 \\
+			feature\_4 & 162.393 \\
+			feature\_25 & 115.352 \\
+			feature\_15 & 34.296 \\
+			feature\_6 & 28.912 \\
+			feature\_27 & 13.973 \\
+			feature\_2 & 11.749 \\
+			feature\_33 & 6.888 \\
+			feature\_5 & 6.485 \\
+			\bottomrule
+		\end{tabular}
+	\end{center}
+	
+	\textbf{Per-cluster means for top features (original units, imputed):}
+	\begin{center}
+		\begin{tabular}{lrrrrrr}
+			\toprule
+			Cluster & feature\_10 & feature\_24 & feature\_4 & feature\_25 & feature\_15 & feature\_6 \\
+			\midrule
+			0 & -0.223 & -0.123 & 0.140 & 0.135 & 0.077 & 0.040 \\
+			1 & 5.462 & 0.035 & -3.160 & -2.658 & -1.707 & 0.064 \\
+			2 & 0.077 & 6.515 & -0.230 & -1.069 & -0.351 & -2.148 \\
+			3 & 2.336 & 0.013 & -1.544 & -1.329 & -0.759 & -0.044 \\
+			\bottomrule
+		\end{tabular}
+	\end{center}
+	
+	\section{(3) Project Built From Scratch }
+	\subsection*{Overview}
+	We designed a real-time fraud-scoring service targeting $<$20\,ms latency:
+	Kafka$\to$Flink compute streaming features; Redis (online store) + Postgres (metadata/labels); LightGBM exported to ONNX; FastAPI service on Kubernetes;
+	ClickHouse for OLAP; Prometheus/Grafana for SLOs; Great Expectations for data contracts.
+	
+	\subsection*{Why these components}
+	\begin{itemize}[leftmargin=*]
+		\item \textbf{Language/Framework} (Python + FastAPI): Rich ML ecosystem; async I/O; clean contracts; onnxruntime for low-latency C++ inference.
+		\item \textbf{Model} (LightGBM$\to$ONNX): Tabular fit; monotone constraints; SHAP; portable runtime.
+		\item \textbf{Storage}: Redis (sub-ms online features with TTLs), Postgres (ACID metadata/labels), ClickHouse (fast OLAP), S3/Parquet (offline).
+		\item \textbf{Streaming}: Flink for event-time windows and exactly-once checkpoints.
+		\item \textbf{Operations}: Shadow/canary deploys; drift/calibration monitors; guardrail thresholds.
+	\end{itemize}
+	
+	\subsection*{Code sample }
+	\begin{lstlisting}[language=Python]
+		from fastapi import FastAPI
+		from pydantic import BaseModel
+		import os, numpy as np, onnxruntime as rt, aioredis, asyncpg
+		
+		app = FastAPI()
+		
+		class Tx(BaseModel):
+		user_id: str; merchant_id: str; amount: float; device_id: str
+		
+		@app.on_event("startup")
+		async def init():
+		app.state.redis = await aioredis.from_url(os.getenv("REDIS_URL"))
+		app.state.pg = await asyncpg.create_pool(os.getenv("PG_DSN"))
+		s = rt.InferenceSession(os.getenv("MODEL_PATH","model.onnx"),
+		providers=["CPUExecutionProvider"])
+		app.state.sess = s; app.state.iname = s.get_inputs()[0].name
+		
+		async def fetch_features(p):
+		r = app.state.redis
+		keys = [f"u:{p.user_id}:r", f"d:{p.device_id}:r", f"m:{p.merchant_id}:r"]
+		vals = await r.mget(*keys)
+		if any(v is None for v in vals):
+		async with app.state.pg.acquire() as con:
+		rec = await con.fetchrow(
+		"select user_risk,device_risk,merchant_risk from features "
+		"where user_id=$1 and device_id=$2 and merchant_id=$3",
+		p.user_id,p.device_id,p.merchant_id)
+		vals = [rec['user_risk'], rec['device_risk'], rec['merchant_risk']]
+		return [float(v) for v in vals] + [float(p.amount)]
+		
+		def score_vec(x):
+		y = app.state.sess.run(None, {app.state.iname: np.array([x], np.float32)})[0][0,0]
+		return float(y)
+		
+		@app.post("/score")
+		async def score(p: Tx):
+		x = await fetch_features(p); y = score_vec(x)
+		return {"prob": y, "decision": "block" if y > 0.8 else "allow"}
+	\end{lstlisting}
+	
+	\section*{Reproducibility}
+	Artifacts are included in the package:
+	\begin{itemize}[leftmargin=*]
+		\item \texttt{clustered\_output\_with\_labels.csv} --- original rows + cluster assignment.
+		\item \texttt{clustering\_report.json} --- metrics, top features, sizes, EV.
+		\item All figures (\texttt{*.png}) referenced above.
+	\end{itemize}
+	
+\end{document}
